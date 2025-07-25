@@ -156,3 +156,20 @@ body {
         display: none;
     }
 }
+
+/* banner section  */
+.banner-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+
+}
+
+.banner-heading {
+    max-width: 517px;
+    padding-bottom: 15px;
+}
+
+.banner-details {
+    max-width: 570px;
+}
