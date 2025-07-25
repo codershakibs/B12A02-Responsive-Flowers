@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
 body {
     background: #F5F8FF;
 }
@@ -11,6 +17,7 @@ body {
 .container {
     max-width: 1140px;
     margin: 0 auto;
+    padding: 0 16px;
 }
 
 /* font classes  */
@@ -51,6 +58,36 @@ body {
 
 }
 
+/* font-size classes  */
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-65 {
+    font-size: 65px;
+}
+
+.fs-22 {
+    font-size: 22px;
+}
+
+.fs-50 {
+    font-size: 50px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.fs-28 {
+    font-size: 28px;
+}
+
 
 /* color classes  */
 .text-primary {
@@ -78,4 +115,44 @@ body {
 /* other classes  */
 .d-flex {
     display: flex;
+}
+
+.lh-150 {
+    line-height: 150%;
+}
+
+
+/* main css start  ******** */
+
+/* nav section  */
+.nav-section {
+    padding-top: 30px;
+}
+
+.nav-wrapper {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-blocks {
+    gap: 48px;
+}
+
+.nav-links {
+    gap: 48px;
+}
+
+.nav-links li {
+    line-height: 150%;
+}
+
+.nav-cart {
+    gap: 10px;
+}
+
+/* responsive media query  */
+@media screen and (max-width: 576px) {
+    .nav-links {
+        display: none;
+    }
 }
