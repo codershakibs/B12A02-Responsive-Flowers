@@ -163,6 +163,11 @@ img {
     gap: 10px;
 }
 
+.nav-active {
+    font-weight: 700;
+    color: #000;
+}
+
 /* responsive media query  */
 @media screen and (max-width: 576px) {
     .nav-links {
